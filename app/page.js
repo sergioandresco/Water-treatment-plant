@@ -241,14 +241,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="footer">
-        AquaTwin · Next.js + React Three Fiber · Coste del m³ vía <code>/api/water-cost</code>{" "}
-        (revalidación diaria). Define <code>WATER_TARIFF_API_URL</code> para conectar una fuente
-        de tarifas real (IB-NET, regulador nacional, GWI).
-        <br />
-        <br />
-        made by FTUB
-      </div>
+      <div className="footer">made by FTUB</div>
     </div>
   );
 }
